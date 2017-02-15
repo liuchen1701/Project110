@@ -54,4 +54,4 @@ public class CelsiusTest extends TestCase{
 
         assertEquals(212, convert.getValue(), delta);
     }
-}}
+}

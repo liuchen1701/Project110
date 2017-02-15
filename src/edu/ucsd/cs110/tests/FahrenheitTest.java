@@ -56,4 +56,4 @@ public class FahrenheitTest extends TestCase{
 
         assertEquals(100, convert.getValue(), delta);
     }
-}}
+}

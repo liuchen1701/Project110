@@ -10,15 +10,16 @@ public class Celsius extends Temperature {
 
     @Override
     public Temperature toCelsius() {
-        return null;
+        return this;
     }
 
     @Override
     public Temperature toFahrenheit() {
-        return null;
+        float value = (this.getValue()*9/5)+32;
+        return new Fahrenheit(value);
     }
 
     public String toString() {
-        return "";
+        return this.getValue()+" C";
     }
 }
